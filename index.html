@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1px 20px;
+            background-color: rgba(0, 4, 255, 0.548);
+        }
+        body {
+            background-image: url("45405 (1).webp");
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white; 
+        }
+        a {
+            color: lightblue; 
+        }
+        main {
+            background-color: rgba(53, 46, 46, 0.589);
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: rgb(255, 255, 255); 
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: rgb(255, 0, 0);
+        }
+        table {
+            margin: 0 auto;
+            width: 80%;
+        }
+        td {
+            vertical-align: top;
+            padding: 10px;
+        }
+        #about, #work, #contact {
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        footer {
+            background-color: rgba(255, 255, 255, 0.466);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            position: relative;
+            bottom: 0;
+        }
+        footer a {
+            color: rgb(0, 0, 0); 
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: rgb(255, 0, 0); 
+        }
+        .profile {
+            margin: 0 auto;
+            width: 80%;
+            position: relative;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            background-image: url('485408597_1715068106073939_1370372171730153817_n.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .profile::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            z-index: 0;
+        }
+        .profile h1, .profile h2, .profile img {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Personal Portfolio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="profile">
+            <img src="481112412_1695998501314233_2518693899279485579_n.jpg" alt="Photo" width="200" style="border-radius: 50%;">
+            <h1>Nino Jay Caparida</h1>
+            <h2>3D Modeler, Backend, Frontend</h2>
+        </div>
+        <section id="about" style="background-color: rgba(0, 0, 0, 0.5); margin: 0 auto; width: 80%; padding: 20px; border-radius: 10px; margin-top: 20px;">
+            <h2>About Me</h2>
+            <p>Detail-oriented and tech-savvy aspiring Content Moderator with a Bachelor of Science in Information Technology (BSIT) background. Adept at identifying, reviewing, and filtering online content to ensure compliance with community guidelines. Strong analytical and problem-solving skills with the ability to work independently in a remote setup. Passionate about maintaining a safe and positive online environment.
+            </p>
+        </section>
+        <section id="work">
+            <h2>My Work</h2>
+            <table border="1">
+                <tr>
+                    <td>
+                        <article>
+                            <h3>Roman Park</h3>
+                            <img src="maxresdefault.jpg" alt="Project 1 Photo" width="100%">
+                            <p>Legion square MLO fully optimize</p>
+                            <a href="https://drive.google.com/file/d/1V9lHrSTj0w4wd4CLIQwbzVmFE9SGuJS-/view?usp=sharing">View Project</a>
+                        </article>
+                    </td>
+                    <td>
+                        <article>
+                            <h3>Cayo Perico Mansion</h3>
+                            <img src="928792-1.webp" alt="Project 2 Photo" width="100%">
+                            <p>Full MLO GTA V Cayo perico Mansion</p>
+                            <a href="https://drive.google.com/file/d/1hFc650phqxI_QjLoLRomTHnnmCryxY6Q/view?usp=sharing">View Project</a>
+                        </article>
+                    </td>
+                    <td>
+                        <article>
+                            <h3>Mecahinc Sport Customs</h3>
+                            <img src="il_fullxfull.5528792334_b3fi.webp" alt="Project 3 Photo" width="100%">
+                            <p>MLO & Mechanic Function fully optimize</p>
+                            <a href="https://drive.google.com/file/d/1ZZDy3UO3F184C548TQS-zQSANBlY80lv/view?usp=sharing">View Project</a>
+                        </article>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <article>
+                            <h3>Animated Car</h3>
+                            <img src="maxresdefault (1).jpg" alt="Project 4 Photo" width="100%">
+                            <p>44+ animated FiveM cars fully optimize with different unique features</p>
+                            <a href="https://drive.google.com/drive/folders/1HUl9ZYDIyfUkFwhrnNvf--DZ-ZIl1qG0?usp=sharing">View Project</a>
+                        </article>
+                    </td>
+                    <td>
+                        <article>
+                            <h3>Hunting Script</h3>
+                            <img src="maxresdefault (2).jpg" alt="Project 5 Photo" width="100%">
+                            <p>Take your FiveM server to the next level with this fully optimized and lightweight hunting system, compatible with both QBCore and ESX! </p>
+                            <a href="https://drive.google.com/file/d/1xj0JunRpo79yfSowWxFPUmJKMA28Qfeq/view?usp=sharing">View Project</a>
+                        </article>
+                    </td>
+                    <td>
+                        <article>
+                            <h3>Fivem Vstancer</h3>
+                            <img src="138594321-f4467b1f-19fd-4ce3-99a7-dc99243f7f3b.png" alt="Project 6 Photo" width="100%">
+                            <p>Enhance your FiveM server with VStancer, a fully optimized and lightweight script that lets players fine-tune their vehicle stance.</p>
+                            <a href="https://drive.google.com/file/d/1dLHG1VEzQ8ezDcwmc668NiezJbmZHE8t/view?usp=sharing">View Project</a>
+                        </article>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <article>
+                            <h3>JDM Wheels FiveM</h3>
+                            <img src="OIP (1).jpg" alt="Project 7 Photo" width="100%">
+                            <p>FiveM server with a high-quality JDM Wheels Pack, featuring authentic, detailed, and optimized rims for the best stance and drift builds. </p>
+                            <a href="https://drive.google.com/drive/folders/1oo_MQnerNZkd2D_H8bqHSQkX0LjLb4J0?usp=sharing">View Project</a>
+                        </article>
+                    </td>
+                    <td>
+                        <article>
+                            <h3>FiveM ready Graphics pack</h3>
+                            <img src="maxresdefault (3).jpg" alt="Project 8 Photo" width="100%">
+                            <p>Looking for a FiveM graphics mod that improves visuals without lagging your game? This Low-End Friendly Graphics Pack is designed to provide better textures, lighting, and color correction while keeping performance smooth</p>
+                            <a href="https://drive.google.com/drive/folders/1oZSQ4D8-Lz1D5YUjMYQGx_7ySgrYvg5l?usp=sharing">View Project</a>
+                        </article>
+                    </td>
+                    <td>
+                        <article>
+                            <h3>Fully Optimized Drug Script | QBCore & ESX</h3>
+                            <img src="9d6b69551ea43e7adb12cd5e969ca07377110b1e_2_1380x698.jpeg" alt="Project 9 Photo" width="100%">
+                            <p>Bring a realistic and interactive mushroom farming system to your FiveM server! MZ Shrooms allows players to harvest, process, and sell magic mushrooms, adding a unique and immersive activity to roleplay servers.</p>
+                            <a href="https://drive.google.com/file/d/1mDGKYkGE4WAgd07EHIG5Bqy0K0IxZIcZ/view?usp=sharing">View Project</a>
+                        </article>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <a href="mailto:your-mc37noob@gmail.com">Gmail</a></p>
+        <a href="https://www.instagram.com/webtoon.xyz/">Instagram</a></p>
+        <a href="https://github.com/Xalvenge-xyz">GitHub</a></p>
+        <a href="https://www.facebook.com/ninojay.caparida143/">Facebook</a></p>
+        <a href="https://www.youtube.com/@XalvengeDelaVega">Youtube</a></p>
+        <a href="https://discord.gg/cjy4eHDuhx">Discord</a></p>
+        
+    </footer>
+</body>
+</html>
